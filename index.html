@@ -7,17 +7,36 @@
     <title>Matthew Jerabek</title>
    
    <style>
-        body{
+       /*mobile first styles*/
+        body {
             background-color: blanchedalmond;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             padding: 0; margin: 0;
         } 
 
-        header{
+        header {
              background-color: #212121;
              color: blanchedalmond;
         }
+        main { 
+            background-color: whitesmoke;
+        }
 
+        footer {
+            background-color: black;
+        }
+        /*MEDIA QUERIES*/
+        @media screen and (min-width: 600px){
+            .container {
+                width: 400px;
+                margin: 0 auto; 
+            }
+            @media screen and (min-width: 1000px){
+            .container {
+                width: 800px;
+                margin: 0 auto; 
+            }
+}
         .container {
             width: 1000px;
             margin: 0 auto; 
